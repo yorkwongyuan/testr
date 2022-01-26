@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec babel-node ./index.js abc",
+    "build": "node build.js",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "keywords": [],
+  "author": "wy <631824375@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "chalk": "^4.1.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "enquirer": "^2.3.6",
+    "execa": "^5.0.0",
+    "jest": "^27.4.7",
+    "lodash": "^1.0.2",
+    "minimist": "^1.2.5",
+    "nodemon": "^2.0.15",
+    "semver": "^7.3.2",
+    "vue": "~2.2.1"
+  }
+}
