@@ -9,7 +9,7 @@ const args = minimist(process.argv.slice(2))
 const currentVersion = require('./package.json').version
 const step = (msg) => console.log(chalk.cyan(msg))
 const preId = args.preId
-console.log('🚀 ~ file: index.js ~ line 9 ~ preId', preId)
+console.log('🚀 ~ file: ind123123ex.js ~ line 9 ~ preId', preId)
 
 const inc = (i) => semver.inc(currentVersion, i, preId)
 const bin = (name) => path.resolve(__dirname, './node_modules/.bin/' + name)
